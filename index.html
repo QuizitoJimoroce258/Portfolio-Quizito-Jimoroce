@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizito - Designer Web & Gráfico</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo">QUIZITO.</div>
+
+          <!-- Menu Desktop -->
+          <div class="menu-desktop">
+            <a href="#inicio" class="menu-item">INÍCIO</a>
+            <a href="#sobre" class="menu-item">SOBRE</a>
+            <a href="#servicos" class="menu-item">SERVIÇOS</a>
+            <a href="#portfolio" class="menu-item">PORTFÓLIO</a>
+            <a href="#contactar" class="menu-item">CONTACTAR</a>
+          </div>
+
+          <!-- Menu Mobile Toggle -->
+          <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="menu-mobile" id="menuMobile">
+          <a href="#inicio" class="menu-item-mobile">INÍCIO</a>
+          <a href="#sobre" class="menu-item-mobile">SOBRE</a>
+          <a href="#servicos" class="menu-item-mobile">SERVIÇOS</a>
+          <a href="#portfolio" class="menu-item-mobile">PORTFÓLIO</a>
+          <a href="#contactar" class="menu-item-mobile">CONTACTAR</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <p class="hero-subtitle">Olá, meu nome é</p>
+          <h1 class="hero-title">
+            QUIZITO JIMOROCE
+            <span class="hero-title-yellow">WEB & GRÁFICO</span>
+            <span>DESIGNER</span>
+          </h1>
+          <p class="hero-description">
+            Sou um jovem profissional entusiasta de desenvolvimento web. Com
+            habilidades técnicas e criativas, trabalho para criar experiências
+            digitais únicas e memoráveis. Minha paixão é transformar ideias em
+            realidade através do design e da programação.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="documentos/CurriculumVitaeKAG.pdf"
+            download
+            >Portfólio</a>
+            <div class="social-links">
+              <a href="https://www.behance.net/kaggraphic" class="social-link"
+                ><i class="fa-brands fa-behance" ></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/quizito-jimoroce-9180a92a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="social-link"
+                ><i class="fa-brands fa-linkedin-in" ></i
+              ></a>
+              <a
+                href="https://www.instagram.com/kag.graphic?igsh=MXNtdm1vYzNjZjduNQ=="
+                class="social-link"
+                ><i class="fa-brands fa-instagram" ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <img
+              src="imagens/foto oficial.webp"
+              alt="fotografia do designer"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img
+            src="imagens/foto oficial.webp"
+            alt="fotografia do designer"
+          />
+          <!---<div class="image-placeholder-yellow"></div>-->
+        </div>
+
+        <div class="about-content">
+          <div class="section-subtitle">
+            <p id="sobremim">SOBRE MIM</p>
+            <div class="barra1"></div>
+          </div>
+          <h2 class="section-title">QUEM SOU EU</h2>
+          <p class="section-description">
+            Sou designer gráfico e web designer com experiência em criar
+            soluções visuais impactantes. Especializado em design de interfaces,
+            branding e desenvolvimento visual, trabalho para transformar suas
+            ideias em realidade.
+          </p>
+          <p class="section-description">
+            Participei de vários cursos e certificações, adquirindo
+            conhecimentos em design thinking, desenvolvimento web e criação de
+            identidades visuais memoráveis.
+          </p>
+          <a
+            class="btn btn-secondary"
+            href="documentos/CurriculumVitaeKAG.pdf"
+            download
+            ><i
+              class="fa-solid fa-download"
+              id="icone_send"
+              style="margin-right: 10px"
+            ></i
+            >DOWNLOAD CV</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+      <div class="services-container">
+        <div class="section-header">
+          <p class="section-subtitle">MEUS SERVIÇOS</p>
+          <div class="barra" id="bara_conversar"></div>
+          <h2 class="section-title">SERVIÇOS</h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" id="webdesign">
+            <div class="service-icon"><img src="imagens/front-end-programming.png" alt=""></div>
+            <h3 class="service-title">Web Design</h3>
+            <p class="service-description">
+              Criação de websites modernos e responsivos com foco em experiência
+              do usuário.
+            </p>
+          </div>
+
+          <div class="service-card" id="graphicdesign">
+            <div class="service-icon"><img src="imagens/curve.png" alt=""></div>
+            <h3 class="service-title">Design Gráfico</h3>
+            <p class="service-description">
+              Desenvolvimento de identidades visuais, logos e materiais de
+              marketing.
+            </p>
+          </div>
+
+          <div class="service-card" id="Packagedesign">
+            <div class="service-icon"><img src="imagens/packaging-design.png" alt=""></div>
+            <h3 class="service-title">Package Design</h3>
+            <p class="service-description">
+              Design de embalagens de produtos comésticos, alimentares, entre
+              outros.
+            </p>
+          </div>
+
+          <div class="service-card" id="modadesign">
+            <div class="service-icon"><img src="imagens/tshirt.png" alt=""></div>
+            <h3 class="service-title">Design de Moda</h3>
+            <p class="service-description">
+              Design de artigos e vestuarios para marcas de moda urbana, formal,
+              entre outras
+            </p>
+          </div>
+
+          <div class="service-card" id="branding">
+            <div class="service-icon"><img src="imagens/branding.png" alt=""></div>
+            <h3 class="service-title">Branding Corporativo</h3>
+            <p class="service-description">
+              Estratégia de marca e desenvolvimento de identidade visual
+              completa.
+            </p>
+          </div>
+
+          <div class="service-card" id="picture">
+            <div class="service-icon"><img src="imagens/camera (1).png" alt=""></div>
+            <h3 class="service-title">Fotografias</h3>
+            <p class="service-description">
+              Coberturas fotográficas para casamentos, shows, workshops, sessões
+              de estúdio.
+            </p>
+          </div>
+
+          <div class="service-card" id="printdesign">
+            <div class="service-icon"><img src="imagens/printing.png" alt=""></div>
+            <h3 class="service-title">Design de Impressão</h3>
+            <p class="service-description">
+              Design optimizado para impressões como outdoors, banners, folhetos, panfletos e muito mais.
+            </p>
+          </div>
+
+          <div class="service-card" id="consulting">
+            <div class="service-icon"><img src="imagens/talk.png" alt=""></div>
+            <h3 class="service-title">Consultoria</h3>
+            <p class="service-description">
+              Direcionamento e capacitação na matéria de design gráfico, web,
+              fotografias e branding.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+      <div class="skills-container">
+        <div class="skills-header">
+          <p class="section-subtitle">MINHAS HABILIDADES</p>
+          <div class="barra" id="bara_conversar"></div>
+          <h2 class="section-title">HABILIDADES</h2>
+          <p class="skills-description">
+            Todas as habilidades que possuo incluindo os softwares que domino e
+            suas respectivas competências.
+          </p>
+        </div>
+
+        <div class="skills-list">
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Photoshop</span>
+              <span class="skill-percentage">95%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Illustrator</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Lightroom</span>
+              <span class="skill-percentage">92%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 92%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">After Effects</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Adobe XD</span>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 88%"></div>
+            </div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">HTML & CSS</span>
+              <span class="skill-percentage">93%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 93%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Javascript</span>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-progress" style="width: 75%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio-container">
+        <div class="section-header">
+          <p class="section-subtitle">MEU TRABALHO</p>
+          <div class="barra" id="bara_conversar"></div>
+          <h2 class="section-title">PORTFÓLIO</h2>
+        </div>
+
+        <!-- Filters -->
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">TODOS</button>
+          <button id="dgraficos" class="filter-btn" data-filter="graficos">
+            DESIGN GRÁFICO
+          </button>
+          <button id="dweb" class="filter-btn" data-filter="web">
+            DESIGN WEB
+          </button>
+          <button id="dfotografias" class="filter-btn" data-filter="branding">
+            BRANDING
+          </button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid indx" id="portfolioGrid">
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/222222.png"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          
+          <div class="portfolio-item" data-category="web">
+              <img 
+                src="imagens/MacBook_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/Stationery_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/Signboard_Mockup_2.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/Free_Billboard_Mockup1.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          
+           
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Billboard_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Ativo17.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Stationery_Mockup_OK_1.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Flag_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Jewelery_Box_Mockup_42.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/bag.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/X-Stand_Banner_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Wide_Billboard_Mockup_1.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/Free_Cosmetic_Jar_Mockup_6.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/SemTítulo3.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/S25.webp"
+                alt="Package design"
+              />
+          </div>
+          
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/contacapa1.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/Ativo19.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/s7.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/Simple_Billboard_Mockup1.webp"
+                alt="Package design"
+              />
+          </div>
+          
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/cartaz2.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img src="imagens/Macbook_Air_M2_Mockup_3.webp" alt="Website DPE-MANICA"></img>
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/caparoleycsvofic.webp"
+                alt="CD cover"
+                
+              />
+          </div>
+
+        </div>
+        <a href="portfolio.html" class="btnvermais">Ver mais</a>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contactar" class="contact">
+      <div class="contact-container">
+        <div class="section-header">
+          <p class="section-subtitle">VAMOS CONVERSAR</p>
+
+          <div class="barra" id="bara_conversar"></div>
+
+          <h2 class="section-title">CONTACTAR</h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div>
+              <h3 class="contact-title">Fale comigo</h3>
+              <p class="contact-description">
+                Estou disponível para projetos e oportunidades de trabalho.
+                Sinta-se à vontade para entrar em contato através dos canais
+                disponíveis abaixo.
+              </p>
+            </div>
+
+            <div class="contact-details">
+              <div class="contact-detail">
+                <p class="detail-label">TELEFONE</p>
+                <p class="detail-value">+258 84 283 0099</p>
+              </div>
+              <div class="contact-detail">
+                <p class="detail-label">EMAIL</p>
+                <p class="detail-value">jimorocequizito@gmail.com</p>
+              </div>
+              <div class="contact-detail">
+                <p class="detail-label">LOCALIZAÇÃO</p>
+                <p class="detail-value">Beira, Moçambique</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Nome" required class="form-input" />
+            <input
+              type="email"
+              placeholder="Email"
+              required
+              class="form-input"
+            />
+            <input
+              type="text"
+              placeholder="Assunto"
+              required
+              class="form-input"
+            />
+            <textarea
+              placeholder="Mensagem"
+              rows="5"
+              required
+              class="form-input"
+            ></textarea>
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane-top"></i>ENVIAR
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 class="footer-logo">QUIZITO</h3>
+          <p class="footer-description">
+            Transformando ideias em soluções digitais criativas e impactantes.
+          </p>
+
+          <div class="social-footer">
+            <a
+              href="https://github.com/QuizitoJimoroce258"
+              class="social-footer-link"
+              ><i class="fa-brands fa-square-github" style="color: #ffc001"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/kag.graphic?igsh=MXNtdm1vYzNjZjduNQ=="
+              class="social-footer-link"
+              ><i
+                class="fa-brands fa-square-instagram"
+                style="color: #ffc001"
+              ></i
+            ></a>
+            <a
+              href="
+https://www.linkedin.com/in/quizito-jimoroce-9180a92a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="social-footer-link"
+              ><i
+                class="fa-brands fa-square-linkedin"
+                style="color: #ffc001"
+              ></i
+            ></a>
+            <a
+              href="https://www.behance.net/kaggraphic"
+              class="social-footer-link"
+              ><i class="fa-brands fa-square-behance" style="color: #ffc001"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contactar">Contactar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Serviços</h4>
+          <ul class="footer-links">
+            <li><a href="#servicos">Design Gráfico</a></li>
+            <li><a href="#servicos">Web Design</a></li>
+            <li><a href="#branding">Branding</a></li>
+            <li><a href="#consulting">Consultoria</a></li>
+            <li><a href="#servicos">Design de Embalagens</a></li>
+            <li><a href="#servicos">Design de moda</a></li>
+            <li><a href="#printdesign">Design de Impressão</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Contacto</h4>
+          <div class="footer-contact">
+            <a href="mailto:jimorocequizito@gmail.com"
+              >jimorocequizito@gmail.com</a
+            >
+            <a href="tel:+258862430099">+258 86 243 0099</a>
+            <p>Beira, Moçambique</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          © 2025 Quizito Jimoroce. Todos os direitos reservados.
+        </p>
+        <div class="footer-legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Serviço</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

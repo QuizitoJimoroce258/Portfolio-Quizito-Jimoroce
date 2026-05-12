@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizito - Designer Web & Gráfico</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="navbar-container">
+          <div class="logo">QUIZITO.</div>
+
+          <!-- Menu Desktop -->
+          <div class="menu-desktop">
+            <a href="index.html" class="menu-item">INÍCIO</a>
+            <a href="index.html" class="menu-item">SOBRE</a>
+            <a href="index.html" class="menu-item">SERVIÇOS</a>
+            <a href="" class="menu-item">PORTFÓLIO</a>
+            <a href="index.html" class="menu-item">CONTACTAR</a>
+          </div>
+
+          <!-- Menu Mobile Toggle -->
+          <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+
+        <!-- Menu Mobile -->
+        <div class="menu-mobile" id="menuMobile">
+          <a href="#inicio" class="menu-item-mobile">INÍCIO</a>
+          <a href="#sobre" class="menu-item-mobile">SOBRE</a>
+          <a href="#servicos" class="menu-item-mobile">SERVIÇOS</a>
+          <a href="#portfolio" class="menu-item-mobile">PORTFÓLIO</a>
+          <a href="#contactar" class="menu-item-mobile">CONTACTAR</a>
+        </div>
+      </nav>
+    </header>
+
+
+
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio-container">
+        <div class="section-header">
+          <h2 class="section-title">PORTFÓLIO</h2>
+        </div>
+
+        <!-- Filters -->
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">TODOS</button>
+          <button id="dgraficos" class="filter-btn" data-filter="graficos">
+            DESIGN GRÁFICO
+          </button>
+          <button id="dweb" class="filter-btn" data-filter="web">
+            DESIGN WEB
+          </button>
+          <button id="dfotografias" class="filter-btn" data-filter="branding">
+            BRANDING
+          </button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/222222.png"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          
+          <div class="portfolio-item" data-category="web">
+              <img 
+                src="imagens/MacBook_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/Stationery_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/Signboard_Mockup_2.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+              <img 
+                src="imagens/Free_Billboard_Mockup1.webp"
+                alt="Fundacao Rawvisor"
+              /> 
+          </div>
+          
+           
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Billboard_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Ativo17.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Stationery_Mockup_OK_1.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Flag_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Jewelery_Box_Mockup_42.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/bag.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/X-Stand_Banner_Mockup_3.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+           <img
+                src="imagens/Wide_Billboard_Mockup_1.webp"
+                alt="Fundacao Rawvisor"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/Free_Cosmetic_Jar_Mockup_6.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/SemTítulo3.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/S25.webp"
+                alt="Package design"
+              />
+          </div>
+          
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/contacapa1.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/Ativo19.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/s7.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/Simple_Billboard_Mockup1.webp"
+                alt="Package design"
+              />
+          </div>
+          
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/cartaz2.webp"
+                alt="Package design"
+              />
+          </div>
+          <div class="portfolio-item" data-category="web">
+            <img src="imagens/Macbook_Air_M2_Mockup_3.webp" alt="Website DPE-MANICA"></img>
+          </div>
+          <div class="portfolio-item" data-category="graficos">
+            <img
+                src="imagens/caparoleycsvofic.webp"
+                alt="CD cover"
+                
+              />
+          </div>
+
+        </div>
+        <div id="loader">Carregando...</div>
+      </div>
+    </section>
+
+   
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3 class="footer-logo">QUIZITO</h3>
+          <p class="footer-description">
+            Transformando ideias em soluções digitais criativas e impactantes.
+          </p>
+
+          <div class="social-footer">
+            <a
+              href="https://github.com/QuizitoJimoroce258"
+              class="social-footer-link"
+              ><i class="fa-brands fa-square-github" style="color: #ffc001"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/kag.graphic?igsh=MXNtdm1vYzNjZjduNQ=="
+              class="social-footer-link"
+              ><i
+                class="fa-brands fa-square-instagram"
+                style="color: #ffc001"
+              ></i
+            ></a>
+            <a
+              href="
+https://www.linkedin.com/in/quizito-jimoroce-9180a92a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              class="social-footer-link"
+              ><i
+                class="fa-brands fa-square-linkedin"
+                style="color: #ffc001"
+              ></i
+            ></a>
+            <a
+              href="https://www.behance.net/kaggraphic"
+              class="social-footer-link"
+              ><i class="fa-brands fa-square-behance" style="color: #ffc001"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Links Rápidos</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contactar">Contactar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Serviços</h4>
+          <ul class="footer-links">
+            <li><a href="#servicos">Design Gráfico</a></li>
+            <li><a href="#servicos">Web Design</a></li>
+            <li><a href="#branding">Branding</a></li>
+            <li><a href="#consulting">Consultoria</a></li>
+            <li><a href="#servicos">Design de Embalagens</a></li>
+            <li><a href="#servicos">Design de moda</a></li>
+            <li><a href="#printdesign">Design de Impressão</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h4 class="footer-title">Contacto</h4>
+          <div class="footer-contact">
+            <a href="mailto:jimorocequizito@gmail.com"
+              >jimorocequizito@gmail.com</a
+            >
+            <a href="tel:+258862430099">+258 86 243 0099</a>
+            <p>Beira, Moçambique</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          © 2025 Quizito Jimoroce. Todos os direitos reservados.
+        </p>
+        <div class="footer-legal">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
